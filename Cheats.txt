@@ -1,0 +1,5 @@
+Press on keyboard to change nextAtom
+0 - plus
+1 - minus
+2 - dark plus
+3 - neutrino
