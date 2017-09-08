@@ -45,10 +45,10 @@ public class AtomasFrame extends JFrame implements KeyListener{
         instructions.addMouseMotionListener(instructions);
         instructions.setSize(600, 600);
         leaderboard.setBackground(Color.decode("#471D29"));
-    	leaderboard.addMouseListener(leaderboard);
+    	  leaderboard.addMouseListener(leaderboard);
         leaderboard.addMouseMotionListener(leaderboard);
         leaderboard.setSize(600, 600);
-        
+
         // add all panels to cards
         cards.add(menu,"0");
         cards.add(atomas,"1");
@@ -64,7 +64,7 @@ public class AtomasFrame extends JFrame implements KeyListener{
     public void keyTyped(KeyEvent e){}
     public static void main (String[] args){ // main
         aF = new AtomasFrame();
-        aF.setSize(600, 620);
+        aF.setSize(600, 640);
         aF.setVisible(true);
         aF.setResizable(false);
         aF.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
