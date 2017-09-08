@@ -64,7 +64,7 @@ public class AtomasFrame extends JFrame implements KeyListener{
     public void keyTyped(KeyEvent e){}
     public static void main (String[] args){ // main
         aF = new AtomasFrame();
-        aF.setSize(600, 640);
+        aF.setSize(600, 630);
         aF.setVisible(true);
         aF.setResizable(false);
         aF.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
